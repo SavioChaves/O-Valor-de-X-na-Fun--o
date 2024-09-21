@@ -1,0 +1,31 @@
+"""
+Algoritmo Genético para Minimização de Função
+
+Este script implementa um algoritmo genético para encontrar o valor mínimo
+da função f(x) = x^3 - 6x + 14 no intervalo [-10, 10].
+
+Características do algoritmo:
+- Codificação binária para representar soluções
+- Seleção por torneio
+- Crossover de 1 ou 2 pontos (configurável)
+- Mutação com taxa ajustável
+- Critério de parada baseado em número máximo de gerações
+
+Uso:
+1. Execute o script
+2. Siga as instruções para configurar os parâmetros:
+   - Tamanho da população
+   - Número máximo de gerações
+   - Taxa de mutação
+   - Número de pontos de corte para crossover
+
+O programa exibirá o melhor valor de x encontrado e o valor mínimo
+correspondente de f(x).
+
+Requisitos:
+- Python 3.x
+- Módulo random (parte da biblioteca padrão do Python)
+
+Nota: Este algoritmo usa uma abordagem de minimização. Para problemas
+de maximização, ajuste a função de fitness conforme necessário.
+"""
